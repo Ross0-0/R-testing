@@ -1,7 +1,4 @@
 server <- function(input, output, session) {
-  library(shiny)
-  library(ggplot2)
-  
   dataset <- reactive({
     get(input$dataset, "package:ggplot2")
   })
