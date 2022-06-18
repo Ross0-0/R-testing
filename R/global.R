@@ -6,5 +6,5 @@ datasets <- c("economics", "faithfuld", "seals")
 #' Start App
 #' @export
 startApp1 <- function(){
-  shinyApp(ui = "ui.R" ,server = "server.R")
+  shinyApp(ui = ui ,server = server)
 }
