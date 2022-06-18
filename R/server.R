@@ -9,3 +9,10 @@ server <- function(input, output, session) {
     plot(dataset())
   }, res = 96)
 }
+
+#' App Start
+#' Start App
+#' @export
+startApp <- function(){
+  shinyApp(ui = ui ,server = server)
+}

@@ -2,4 +2,4 @@
 
 export(C_to_F)
 export(F_to_C)
-export(startApp1)
+export(startApp)
